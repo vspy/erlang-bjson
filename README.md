@@ -13,9 +13,8 @@ There is another binary flavor of JSON out there: http://bsonspec.org/ . So why 
 (especially because MongoDB uses it and there is a lot of implementations already)?
 
   * BJSON is more space-efficient (and that is important if you use it in games, for instance).
-  * BJSON can be used not only for associative arrays (hashes, documents in BSON terminology), but
-    also for plain values like strings and integers.
-  * There is no “Oh fuck”'s, like in [emongo](https://github.com/JacobVorreuter/emongo/blob/master/src/emongo_bson.erl#L232).
+  * BJSON can be used for plain values like strings and integers.
+  * There is no “Oh fuck”'s inside, like in [emongo](https://github.com/JacobVorreuter/emongo/blob/master/src/emongo_bson.erl#L232).
 
 Cheatsheet
 ----------
