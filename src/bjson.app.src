@@ -1,0 +1,14 @@
+{application, bjson,
+ [
+  {description, ""},
+  {vsn, "1.0.0"},
+  {modules, [bjson]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { bjson_app, []}},
+  {env, []}
+ ]}.
+
