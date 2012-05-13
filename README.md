@@ -42,3 +42,8 @@ Short syntax cheatsheet:
     null -> null
 
 So, basically, you can use same structures in your mochiweb application and in your binary protocol. Enjoy!
+
+LICENSE
+-------
+
+This library is distributed under the BSD license.
