@@ -16,10 +16,16 @@ There is another binary flavor of JSON out there: http://bsonspec.org/ . So why 
   * BJSON can be used for plain values like strings and integers.
   * There is no “Oh fuck”'s inside, like in [emongo](https://github.com/JacobVorreuter/emongo/blob/master/src/emongo_bson.erl#L232).
 
-Cheatsheet
-----------
-
 Usage
+-----
+
+If you're using [rebar](https://github.com/basho/rebar) just add something like
+
+    {bjson, ".*",{git, "git://github.com/vspy/erlang-bjson.git", "master"}}
+
+to your rebar.config
+
+Usage:
 
     bjson:encode({struct, [{hello, <<"world">>}]})
 
